@@ -5,9 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>What Watch </title>
 
-  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="/pwa/assets/icons/icon-128x128.png">
+  <link rel="stylesheet" href="/pwa/styles.css">
 
   <!-- PWA -->
   <link rel="manifest" href="./manifest.json">
@@ -20,15 +21,18 @@
 
   <div class="app">
 
-    <h1>Générateur de MDP</h1>
+    <h1>What Watch</h1>
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora animi molestiae amet aspernatur eligendi
-      soluta,
-      vitae quasi minus. Nemo eveniet omnis quae mollitia vitae modi, aperiam earum non rem est nobis ab quod id
-      accusamus
-      soluta harum similique blanditiis doloremque?</p>
+    <form id="searchForm">
+      <input type="text" placeholder="Entrez le titre d'un flim" id="searchInput"><br>
+      <input type="submit" value="Rechercher">
+     </form>
+     <div class="result-container">
+      <ul class="result"></ul>
+     </div>
+  <img src="/pwa/assets/icons/icon-512x512.png" alt="logo">
+  
 
-  </div>
 
   <script src="./js/index.js"></script>
   <script src="./js/app.js"></script>
